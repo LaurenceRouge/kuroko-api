@@ -33,6 +33,20 @@ class Character
     private $gender;
 
     /**
+     * @ORM\Column(type="string")
+     * @Assert\NotBlank
+     */
+    private $team;
+
+    /**
+     * @ORM\Column(type="string")
+     * @Assert\NotBlank
+     */
+    private $img;
+
+
+
+    /**
      * @return mixed
      */
     public function getId()
@@ -80,4 +94,37 @@ class Character
         $this->gender = $gender;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getTeam()
+    {
+        return $this->team;
+    }
+
+    /**
+     * @param mixed $team
+     */
+    public function setTeam($team)
+    {
+        $this->team = $team;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImg()
+    {
+        return $this->img;
+    }
+
+    /**
+     * @param mixed $img
+     */
+    public function setImg($img)
+    {
+        $this->img = $img;
+    }
+
+    
 }

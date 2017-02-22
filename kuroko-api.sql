@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:8889
--- Généré le :  Mer 22 Février 2017 à 11:09
+-- Généré le :  Mer 22 Février 2017 à 20:47
 -- Version du serveur :  5.6.34
 -- Version de PHP :  7.1.0
 
@@ -114,7 +114,8 @@ INSERT INTO `personage` (`id`, `name`, `gender`, `team`, `img`) VALUES
 (90, 'Masaya Kubotaa', 'Male', '', ''),
 (91, 'Tōru Sekiguchi', 'Male', '', ''),
 (92, 'Nash Gold Jr.', 'Male', '', ''),
-(93, 'Jason Silver', 'Male', '', '');
+(93, 'Jason Silver', 'Male', '', ''),
+(94, 'Tetsuya Kuroko', 'Male', 'Génération Miracles', 'http://vignette2.wikia.nocookie.net/kurokosbasket/images/9/9b/Tetsuya_Kuroko_anime.png/revision/latest/scale-to-width-down/228?cb=20150321212036&path-prefix=fr');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
